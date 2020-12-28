@@ -21,8 +21,23 @@ public class PossibleSantas {
 
 	public void printSuspects() {
 		for (int i = 0; i < this.suspects.length; i++) {
+			if (null == this.suspects[i])
+				continue;
+			
 			System.out.println(this.suspects[i]);
 		}
+	}
+
+	public boolean foundMatch(String query) {
+		for (int x = 0; x < this.suspects.length; x++) {
+			if (null == this.suspects[x])
+				continue;
+
+			if (this.suspects[x].equals(query)) {
+				return true;
+			}
+		}
+		return false;
 	}
 
 }
