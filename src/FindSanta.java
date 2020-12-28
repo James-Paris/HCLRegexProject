@@ -6,17 +6,17 @@ public class FindSanta {
 		
 		PossibleSantas susList = new PossibleSantas(10);
 		
-		susList.addSuspect("Rick");
-		susList.addSuspect("Beth");
-		susList.addSuspect("Morty");
-		susList.addSuspect("Jerry");
-		susList.addSuspect("Summer");
+		susList.addSuspect("Rick@gmail.com");
+		susList.addSuspect("Beth@gmail.com");
+		susList.addSuspect("Morty@gmail.com");
+		susList.addSuspect("Jerry@gmail.com");
+		susList.addSuspect("Summer@gmail.com");
 		
-		susList.addSuspect("Birdperson");
-		susList.addSuspect("Scary Terry");
-		susList.addSuspect("Nancy");
-		susList.addSuspect("Elon Tusk");
-		susList.addSuspect("Ethan");
+		susList.addSuspect("Birdperson@gmail.com");
+		susList.addSuspect("ScaryTerry@gmail.com");
+		susList.addSuspect("Nancy@gmail.com");
+		susList.addSuspect("ElonTusk@gmail.com");
+		susList.addSuspect("Ethan@gmail.com");
 		
 		//susList.printSuspects();
 		

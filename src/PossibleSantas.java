@@ -33,7 +33,7 @@ public class PossibleSantas {
 			if (null == this.suspects[x])
 				continue;
 
-			if (this.suspects[x].equals(query)) {
+			if (this.suspects[x].equalsIgnoreCase(query)) {
 				return true;
 			}
 		}
