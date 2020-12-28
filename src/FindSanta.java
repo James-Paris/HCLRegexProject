@@ -3,8 +3,15 @@ public class FindSanta {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Hello World!");
+		PossibleSantas susList = new PossibleSantas(5);
 		
+		susList.addSuspect("Rick");
+		susList.addSuspect("Beth");
+		susList.addSuspect("Morty");
+		susList.addSuspect("Jerry");
+		susList.addSuspect("Summer");
+		
+		susList.printSuspects();
 	}
 	
 	
